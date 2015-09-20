@@ -1,0 +1,141 @@
+//// the following source code was written by Dim3z||ske:
+
+#include <iostream> //this command creates a preprocessor
+#include <string>
+#include <cmath>
+#include <string>
+
+using namespace std; // this command uses the C++ standard Library
+
+int main()
+{
+    string string000;
+    string string001;
+    string string002;
+    string string003;
+    string string004;
+    string string005;
+    string000 = "The first equation is 15 - 92 + 15600 divided by 156";
+    string001 = "Is the answer to the equation, ";
+    string002 = "And the following numbers and letters represent the";
+    string003 = "Hex addresses of the variables assigned:";
+    string004 = "Is the answer to the 2nd equation.";
+    string005 = "The Second equation is 55 divided by 6";
+    string string1;
+    string string2;
+    string string3;
+
+
+    string1 = "This is a Short Story, i think c++ is interesting and fun i like carrying out   procedures of writing c++ it is very fun and i like it";
+    string2 = "I wanted to learn how to program so i can program codes into my games that i    make i am learning c++ everyday and leaning more and more";
+    string3 = "Type the number you want to Square: ";
+  // Creating integer variables:
+
+ int a = 15, b = 92, c = 156, d = 4039, e = 15600, f = 7000;   // Initialization  integer variables:
+ int result;
+
+
+    // Process of assignments of the integer variables:
+     a = 15;
+     b = 92;
+     c = 156;
+     d = 4039;
+     e = 15600;
+     f = 7000;
+    // The integer "result" is assigning the integers "a, b, e, c" to "to    "a = 15, b = 92, e = 15600, c = 156" which the integer "result" equals to "15 - 92 + 15600 / 156":
+     result = a - b + e / c;
+
+// Process of assigning integers with (value) constructor initializers "declares the variable then assigns it to a value inside the constructor initializer()"
+int aa(55); int bb(6); int result2 = aa / bb;
+
+// this variable represents a float which can houses a modulus number
+    string string006;
+    string string007;
+    string006 = " This is the third equation";
+    string007 = "The SquareRoot of 125 equals:";
+
+float mynumber;
+mynumber = 10.2;
+
+
+
+
+
+
+
+
+
+
+    // Prints the integer "result":
+    cout << string000 << endl;
+    cout << result << ":  ";
+    cout << string001 << endl;
+    cout << endl;
+    cout << string005 << endl;
+    cout << endl;
+    cout << result2 << ":  " << string004 << endl;
+    cout << endl;
+    cout << endl;
+    cout << string002 << " " << endl;
+    cout <<string003 << endl;
+    cout << endl;
+    cout << endl;
+
+
+
+
+
+
+
+
+
+
+    // prints the 'Hex Decimal' addresses of the data in the integers "a,b,c,d,e,f"
+
+    cout << &a << " :Integer Variable (a) " << endl;
+    cout << &b << " :Integer Variable (b) " << endl;
+    cout << &c << " :Integer Variable (c) " << endl;
+    cout << &d << " :Integer Variable (d) " << endl;
+    cout << &e << " :Integer Variable (e) " << endl;
+    cout << &f << " :Integer Variable (f) " << endl;
+
+
+
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << string1 << endl;
+    cout << endl;
+    cout << endl;
+    cout << string2 << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << string3;
+   // This is the process of squaring a number, basically multiplying a number by its self.
+    int x;
+    x = x*x;
+    cin >> x;
+    cout << "Squaring = " << x*x << endl;
+
+
+// Variable doubles can house whole numbers and real numbers(floating point numbers)
+   // this is the number of the Avogadro constant 6.023 * 10 ^ 23.
+    double decimal = 6.022;
+    double number = 10.0;
+    double exponent = 23.0;
+    double avogadro = 6.022 * pow(number, exponent);
+    cout << avogadro << endl;
+
+
+
+
+
+
+
+  //Terminates the program:
+  return 0;
+}
+
